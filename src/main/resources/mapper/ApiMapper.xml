@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gej.poi.mapper.ApiMapper">
+    <!-- 注意：本内容仅限于风越云力内部传阅，禁止外泄以及用于其他的商业目 -->
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.gej.poi.pojo.ApiLog">
+        <id column="log_id" property="logId"/>
+        <result column="log_url" property="logUrl"/>
+        <result column="log_params" property="logParams"/>
+        <result column="log_status" property="logStatus"/>
+        <result column="log_message" property="logMessage"/>
+        <result column="log_ua" property="logUa"/>
+        <result column="log_controller" property="logController"/>
+        <result column="log_method" property="logMethod"/>
+        <result column="log_time" property="logTime"/>
+        <result column="log_ip" property="logIp"/>
+        <result column="log_device" property="logDevice"/>
+        <result column="created_date" property="createdDate"/>
+        <result column="created_by" property="createdBy"/>
+        <result column="log_result" property="logResult"/>
+        <result column="created_name" property="createdName"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        log_id, log_url, log_params, log_status, log_message, log_ua, log_controller, log_method, log_time, log_ip, log_device, created_date, created_name, log_result
+    </sql>
+
+    <select id="findAll" resultMap="BaseResultMap">
+        select * from sys_log_api
+    </select>
+
+</mapper>
