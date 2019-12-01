@@ -10,7 +10,7 @@ import java.io.Serializable;
  * 接口访问日志表实体类
  * </p>
  *
- * @author 杨德石
+ * @author 高尔稽 技术交流群;781943947
  * @date 2019-09-29 19:15:31
  * @Version 1.0
  *

@@ -2,7 +2,7 @@ package com.gej.poi.constant;
 
 /**
  * java类型常量
- * @Author: 杨德石
+ * @Author: 高尔稽 技术交流群;781943947
  * @Date: 2019/12/1 15:37
  * @Version 1.0
  */

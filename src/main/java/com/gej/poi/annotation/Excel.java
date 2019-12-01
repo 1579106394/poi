@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
  * Excel导入导出注解
  * 在需要导出excel的类中加上该注解
  *
- * @Author: 杨德石
+ * @Author: 高尔稽 技术交流群;781943947
  * @Date: 2019/11/29 15:23
  * @Version 1.0
  */
